@@ -24,7 +24,7 @@ class DynamicPromptList:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("prompt_list",)
     FUNCTION = "create_prompt_list"
-    CATEGORY = "Serhii/Prompts"
+    CATEGORY = "Serhii/Utils"
 
     DESCRIPTION = """
 Creates a list of prompts with dynamic input count.
